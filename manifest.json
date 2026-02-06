@@ -5,8 +5,7 @@
   "version": "0.1.0",
   "permissions": ["storage"],
   "host_permissions": [
-    "https://www.google.com/search*",
-    "https://www.google.com/*"
+    "https://www.google.com/search*"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -30,8 +29,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/search*",
-        "https://www.google.com/*"
+        "https://www.google.com/search*"
       ],
       "js": ["content.js"],
       "run_at": "document_start"
