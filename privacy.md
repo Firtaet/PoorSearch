@@ -28,4 +28,4 @@ If this privacy policy changes, the updated version will be published at this UR
 
 ## Contact
 
-If you have any questions about this privacy policy, you can contact the developer via the project's GitHub repository.
+If you have any questions about this privacy policy, you can contact the developer via the project's GitHub repository(https://github.com/Firtaet).

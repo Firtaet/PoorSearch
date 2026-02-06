@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PoorSearch</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="card">
+      <header class="row">
+        <div>
+          <h1>PoorSearch</h1>
+          <p class="muted">Hide AI answers in Google Search</p>
+        </div>
+        <button class="icon-btn" id="aboutToggle" aria-label="About">
+          <img src="about.svg" alt="About" />
+        </button>
+      </header>
+
+      <section class="menu" id="aboutMenu">
+        <a class="menu-item" href="https://github.com/Firtaet/PoorSearch/blob/main/privacy.md" target="_blank" rel="noreferrer">
+          <span>Privacy policy</span>
+        </a>
+
+        <div class="menu-item">
+          <span class="menu-text" id="emailValue">firtaet@gmail.com</span>
+          <div class="menu-actions">
+            <button class="mini" id="copyEmail">Copy</button>
+            <a class="mini" id="mailTo" href="mailto:firtaet@gmail.com">Open</a>
+          </div>
+        </div>
+
+        <a class="menu-item" href="https://x.com/firtaet" target="_blank" rel="noreferrer">
+          <span>X</span>
+        </a>
+        <a class="menu-item" href="https://www.reddit.com/user/Happy-Musician-8704/" target="_blank" rel="noreferrer">
+          <span>Reddit</span>
+        </a>
+        <a class="menu-item" href="https://github.com/Firtaet" target="_blank" rel="noreferrer">
+          <span>GitHub</span>
+        </a>
+        <a class="menu-item" href="https://github.com/Firtaet/PoorSearch" target="_blank" rel="noreferrer">
+          <span>Source code</span>
+        </a>
+      </section>
+
+      <div class="row status">
+        <span class="muted">Status</span>
+        <span class="pill" id="status">...</span>
+      </div>
+
+      <button id="toggle" class="primary">...</button>
+
+      <div class="stat">
+        <span class="muted">Blocked total</span>
+        <span class="value" id="count">0</span>
+      </div>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
